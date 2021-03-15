@@ -12,7 +12,7 @@
         var $title = $('input[name=title]').val();
         
         document.getElementById('message').innerHTML = 'Thank you for your payment, ' + $title + ' ' + $name + '.';
-        $('finished').modal();
+        $('#finished').modal();
     });
 
 })(window);
